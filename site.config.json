@@ -1,0 +1,35 @@
+{
+  "_leia": "Dados da instituição usados no cabeçalho, rodapé, botão de WhatsApp, aviso de cookies e dados estruturados de todas as páginas. Depois de editar, rode: node tools/sync.js",
+
+  "nome": "Bem Me Quer",
+  "nomeCompleto": "Bem Me Quer Casa de Repouso e Hospedagem",
+  "subtitulo": "Casa de repouso · Curitiba",
+  "resumo": "Casa de repouso, hospedagem e Day Care para idosos no Centro de Curitiba.",
+  "razaoSocial": "Bem Me Quer Casa de Repouso LTDA",
+  "cnpj": "48.661.385/0001-64",
+
+  "whatsapp": "5541996659788",
+  "whatsappExibicao": "(41) 99665-9788",
+  "telefone": "+554132234341",
+  "telefoneExibicao": "(41) 3223-4341",
+
+  "endereco": {
+    "rua": "Rua Desembargador Motta, 2462",
+    "bairro": "Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "cep": "80430-200"
+  },
+
+  "instagram": "larbemmequer",
+
+  "mensagens": {
+    "padrao": "Olá! Vi o site da Bem Me Quer e gostaria de mais informações.",
+    "visita": "Olá! Gostaria de agendar uma visita à Bem Me Quer."
+  },
+
+  "credito": {
+    "nome": "Pedro Trentin",
+    "url": "https://www.instagram.com/ph.trentin/"
+  }
+}

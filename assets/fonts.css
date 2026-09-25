@@ -1,4 +1,5 @@
-@font-face{font-family:"Gilda Display";src:url(/assets/fonts/gilda-display-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:"Mulish";src:url(/assets/fonts/mulish-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:"Mulish";src:url(/assets/fonts/mulish-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
-@font-face{font-family:"Mulish";src:url(/assets/fonts/mulish-latin-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+/* Fontes auto-hospedadas (nenhum dado vai para terceiros).
+   Newsreader: títulos e textos de destaque. Libre Franklin: texto corrido e interface. */
+@font-face{font-family:"Newsreader";src:url(/assets/fonts/newsreader-latin-opsz-normal.woff2) format("woff2-variations"),url(/assets/fonts/newsreader-latin-opsz-normal.woff2) format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url(/assets/fonts/newsreader-latin-wght-italic.woff2) format("woff2-variations"),url(/assets/fonts/newsreader-latin-wght-italic.woff2) format("woff2");font-weight:200 800;font-style:italic;font-display:swap}
+@font-face{font-family:"Libre Franklin";src:url(/assets/fonts/libre-franklin-latin-wght-normal.woff2) format("woff2-variations"),url(/assets/fonts/libre-franklin-latin-wght-normal.woff2) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
