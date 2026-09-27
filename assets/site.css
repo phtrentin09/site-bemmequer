@@ -85,7 +85,7 @@ p{margin:0}
 .nav a.btn-primary:hover{background:#3C5A4C}
 .nw{white-space:nowrap}
 .menu-btn{display:none;background:none;border:1.5px solid var(--line);border-radius:999px;padding:9px 16px;font:700 .9rem var(--body);color:var(--navy);cursor:pointer}
-@media (max-width:1180px){
+@media (max-width:900px){
   .menu-btn{display:inline-flex}
   .nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;background:var(--paper);border-bottom:1px solid var(--line);padding:12px clamp(16px,4vw,32px) 20px}
   .nav.open{display:flex}
@@ -456,12 +456,3 @@ html.lb-open{overflow:hidden}
 .lb-nav{width:52px;height:52px;justify-self:center}
 .lb-close{position:absolute;top:calc(12px + env(safe-area-inset-top,0px));right:12px;width:44px;height:44px}
 @media (max-width:600px){.lb{grid-template-columns:1fr;padding-inline:8px}.lb-nav{position:absolute;bottom:calc(20px + env(safe-area-inset-bottom,0px))}.lb-prev{left:24px}.lb-next{right:24px}.lb-fig img{max-height:calc(100vh - 190px)}}
-figure.article-img{margin-block:32px}
-figure.article-img img{display:block}
-
-.nav a{white-space:nowrap}
-@media (min-width:1181px){.nav{gap:0}.nav a{padding:8px 10px}.nav .btn{margin-left:6px}}
-
-.site-header .brand{flex:none}
-.brand-name small{white-space:nowrap}
-@media (min-width:1181px) and (max-width:1480px){.site-header .brand-name small{display:none}}
